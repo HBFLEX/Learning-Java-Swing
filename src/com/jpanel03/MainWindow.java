@@ -22,7 +22,7 @@ public class MainWindow {
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 4));
         // adding the panel on top of jframe, positioned on the center
-        window.add(panel, BorderLayout.NORTH);
+        window.add(panel, BorderLayout.CENTER);
         // the jpane covers all the entire space on the jframe.
         // to visualize this we set its background color to red
         panel.setBackground(Color.red);
